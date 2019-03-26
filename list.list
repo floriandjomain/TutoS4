@@ -1,0 +1,7 @@
+./src/Sujet0/Controleur.java
+./src/Sujet0/DetectionContour.java
+./src/Sujet0/IHM.java
+./src/Sujet0/PanelMetier.java
+./src/Sujet0/Point.java
+
+-d ./bin
