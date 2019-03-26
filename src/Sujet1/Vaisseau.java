@@ -10,7 +10,7 @@ public class Vaisseau
   private double deceleration;
 
   private double[] vitesse;
-
+  private Decelerateur dec;
 
   public Vaisseau(int x, int y)
   {
@@ -22,6 +22,9 @@ public class Vaisseau
     this.deceleration  = 0;
 
     this.majVitesse();
+    dec = new Decelerateur();
+
+    dec.start();
   }
 
   public int getX() { return posX; }
@@ -40,11 +43,19 @@ public class Vaisseau
     majVitesse();
   }
 
-  private void majVitesse()
+  private synchronized void majVitesse()
   {
     this.vitesse[0]+= this.acceleration * Math.cos(this.getAngle());
     this.vitesse[1]+= this.acceleration * Math.cos(this.getAngle());
   }
 
   public double getAcceleration() { return acceleration; }
+
+  private class Decelerateur extends Thread
+  {
+    public Decelerateur()
+    {
+      
+    }
+  }
 }

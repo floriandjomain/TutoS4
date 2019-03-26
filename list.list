@@ -1,15 +1,16 @@
+./src/Sujet0/ClavierEcoute.java
 ./src/Sujet0/Controleur.java
 ./src/Sujet0/DetectionContour.java
 ./src/Sujet0/IHM.java
 ./src/Sujet0/PanelMetier.java
 ./src/Sujet0/Point.java
 
-./src/Sujet1/Controleur.java
+./src/Sujet1/ClavierEcoute.java
 ./src/Sujet1/DetectionContour.java
 ./src/Sujet1/IHM.java
+./src/Sujet1/Monde.java
 ./src/Sujet1/PanelMetier.java
 ./src/Sujet1/Point.java
-./src/Sujet1/Monde.java
 ./src/Sujet1/Vaisseau.java
 
 -d ./bin
