@@ -55,7 +55,7 @@ public class Vaisseau
   {
     public Decelerateur()
     {
-      
+
     }
   }
 }
