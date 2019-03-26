@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package Sujet0;
 
@@ -7,20 +7,20 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 /**
- * @author Rémi
+ * @author RÃ©mi
  *
  */
 
 public class ClavierEcoute implements KeyListener {
-	
+
 	Controleur ctrl;
 	private static final String KEY_RELEASED = "keyReleased";
 	private static final String KEY_PRESSED  = "keyPressed";
-	
+
 	public ClavierEcoute(Controleur c) {
 		this.ctrl = c;
 	}
-	
+
 	/* (non-Javadoc)
 	 * @see java.awt.event.KeyListener#keyTyped(java.awt.event.KeyEvent)
 	 */
@@ -29,7 +29,7 @@ public class ClavierEcoute implements KeyListener {
 		// TODO Auto-generated method stub
 
 	}
-	
+
 	/* (non-Javadoc)
 	 * @see java.awt.event.KeyListener#keyPressed(java.awt.event.KeyEvent)
 	 */
@@ -47,7 +47,7 @@ public class ClavierEcoute implements KeyListener {
 		// TODO Auto-generated method stub
 		myKeyEvent(e, ClavierEcoute.KEY_RELEASED);
 	}
-	
+
 	private void myKeyEvent(KeyEvent e, String action) {
 		int currentKey = e.getKeyCode();
 		if(currentKey == KeyEvent.VK_KP_LEFT || currentKey == KeyEvent.VK_LEFT) {
