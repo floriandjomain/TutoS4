@@ -1,4 +1,4 @@
-# TutoS4
+# TutoS4 - Conquête Spatiale
 
 Auteurs : Campart Pierre, Dégardin Alexis, Fermaut Rémi, Ferreira Kévin, Hamel Nathan, Jomain Floriand
 
