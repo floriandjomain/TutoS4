@@ -1,7 +1,7 @@
 # TutoS4
 
 Auteurs : 
--Campart  Pierre
+\n-Campart  Pierre
 -Dégardin Alexis
 -Fermaut  Rémi
 -Ferreira Kévin
