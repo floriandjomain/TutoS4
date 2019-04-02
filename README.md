@@ -9,4 +9,4 @@ Auteurs : Campart Pierre, Dégardin Alexis, Fermaut Rémi, Ferreira Kévin, Hame
 **Ralentir**  : Flèche Bas <br/>
 <br/>
 
-# Objectif : Ne pas atterrir sur une planète, ce qui provoquerait une collision et donc la perte de la partie
+<p align="center"> # Objectif<br/> : Ne pas atterrir sur une planète, ce qui provoquerait une collision et donc la perte de la partie </p>
